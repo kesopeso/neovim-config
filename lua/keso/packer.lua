@@ -7,12 +7,14 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
+    -- fuzzy find files
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.2',
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+    -- color scheme
 	use({
 		'rose-pine/neovim', as = 'rose-pine',
 		config = function()
@@ -20,12 +22,17 @@ return require('packer').startup(function(use)
 		end
 	})
         
+    -- code formatter / "color maker"
 	use('nvim-treesitter/nvim-treesitter', {run=':TSUpdate'})
 	use('nvim-treesitter/playground')
 
+    -- file undo history
 	use('mbbill/undotree')
+
+    -- git tracker
 	use('tpope/vim-fugitive')
 
+    -- language server protocol (intellisense, autocomplete, etc etc)
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		requires = {
