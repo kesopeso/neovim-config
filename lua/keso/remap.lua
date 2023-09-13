@@ -8,4 +8,4 @@ vim.cmd("set clipboard=unnamedplus")
 -- vim.keymap.set("v", "<leader>P", '"+P')
 -- vim.keymap.set("n", "<leader>p", '"+p')
 -- vim.keymap.set("n", "<leader>P", '"+P')
-
+vim.keymap.set("n", "<leader>rpcs", ":lua UseColorScheme('rose-pine')<CR>")
