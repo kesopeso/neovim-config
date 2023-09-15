@@ -20,3 +20,9 @@ Plugin manager in use is Packer. If it is not installed, do the following:
 - open lua/keso/packer.lua file with neovim
 - source the file by running the command :so
 - sync everything by running the command :PackerSync
+
+## TODO
+
+I'm still using the default netrw file browser. Look into following plugins for browsing files:
+- nvim-tree/nvim-tree.lua
+- nvim-tree/nvim-web-devicons

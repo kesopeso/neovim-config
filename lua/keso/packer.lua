@@ -21,7 +21,7 @@ return require('packer').startup(function(use)
 			vim.cmd('colorscheme rose-pine')
 		end
 	})
-        
+
     -- code formatter / "color maker"
 	use('nvim-treesitter/nvim-treesitter', {run=':TSUpdate'})
 	use('nvim-treesitter/playground')
