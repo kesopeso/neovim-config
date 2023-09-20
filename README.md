@@ -7,6 +7,9 @@ This is a neovim setup based on ThePrimeagen's setup. It might deviate a bit in 
 ## Dependencies
 Check for the below packages on the system. If some of them are missing, install them first.
 
+### Fonts
+- RobotoMono NerdFonts
+
 ### Clipboard copy/paste
 - xclip
 

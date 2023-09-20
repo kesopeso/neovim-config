@@ -1,13 +1,13 @@
 require('lualine').setup {
     options = {
         icons_enabled = true,
-        theme = 'rose-pine',
     },
     sections = {
-        lualine_a = {
+        lualine_a = { 'mode' },
+        lualine_c = {
             {
                 'filename',
-                path = 1,
+                path = 3,
             },
         },
     },
