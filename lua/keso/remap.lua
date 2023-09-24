@@ -2,8 +2,9 @@ vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>rpcs", ":lua UseColorScheme('rose-pine')<CR>")
 
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
--- vim.keymap.set("n", "<leader>u", ":UndotreeShow<CR>")
+-- this is now defined in after/plugin/nvim-tree.lua,
+-- because i'm using nvim-tree as my file browser now
+-- vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
 -- when lines are highlighted, I can move them up and down in chunks
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
