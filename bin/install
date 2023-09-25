@@ -3,7 +3,7 @@
 # install dependencies
 echo "Installing packages..."
 sudo apt-get update
-sudo apt-get install -y xclip ripgrep fd-find unzip
+sudo apt-get install -y xclip ripgrep fd-find unzip gcc g++
 
 # install fonts
 echo "Installing fonts..."

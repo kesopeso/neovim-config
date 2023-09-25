@@ -22,6 +22,14 @@ Check for the below packages on the system. If some of them are missing, install
 - ripgrep
 - fd-find
 
+### Treesitter
+- gcc
+- g++
+
+### Other dependencies
+- unzip
+
+
 ## Plugin manager
 
 Plugin manager in use is Packer. If it is not installed, do the following:
