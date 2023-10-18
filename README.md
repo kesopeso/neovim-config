@@ -5,7 +5,9 @@
 This is a neovim setup based on ThePrimeagen's setup. It might deviate a bit in time to suit my needs, but for now I just want to try out his setup and workflow.
 
 ## Installation
-- All dependencies can be installed with a helper installation script. Just run ./bin/install from the root config directory.
+- Install nvim manually first. This still needs to be automated!
+- Check the bash folder and add the "source path_to_dir/bash/nvim_init" to the .bashrc / .zshrc file
+- All dependencies can be installed with a helper installation script. Just run ./bin/install.sh from the root config directory.
 - Check below how to install plugins inside neovim. After that you are good to go!
 
 ## Dependencies
