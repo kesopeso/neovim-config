@@ -57,7 +57,10 @@ return require('packer').startup(function(use)
 	}
 
     -- file browser
-    use 'nvim-tree/nvim-tree.lua'
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = { { 'nvim-tree/nvim-web-devicons' } }
+    }
 
     -- info line
     use 'nvim-lualine/lualine.nvim'
