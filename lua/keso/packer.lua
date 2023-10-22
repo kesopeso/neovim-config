@@ -64,5 +64,13 @@ return require('packer').startup(function(use)
 
     -- info line
     use 'nvim-lualine/lualine.nvim'
+
+    -- surround replacement
+    use({
+        'kylechui/nvim-surround', tag = '*',
+        config = function()
+            require('nvim-surround').setup({})
+        end
+    })
 end)
 
