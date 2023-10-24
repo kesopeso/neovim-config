@@ -72,5 +72,8 @@ return require('packer').startup(function(use)
             require('nvim-surround').setup({})
         end
     })
+
+    -- html tags completion
+    use 'mattn/emmet-vim'
 end)
 
