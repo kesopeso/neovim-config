@@ -41,4 +41,11 @@ require("formatter").setup({
 	},
 })
 
+vim.cmd([[
+  augroup FormatAutogroup
+    autocmd!
+    autocmd BufWritePost * FormatWrite
+  augroup END
+]])
+
 vim.keymap.set("n", "<leader>f", ":Format<CR>", { noremap = true, silent = true })
