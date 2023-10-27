@@ -75,5 +75,8 @@ return require('packer').startup(function(use)
 
     -- html tags completion
     use 'mattn/emmet-vim'
+
+    -- formatting
+    use 'mhartington/formatter.nvim'
 end)
 

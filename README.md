@@ -30,6 +30,7 @@ Check for the below packages on the system. If some of them are missing, install
 
 ### Other dependencies
 - unzip
+- mason dependencies like prettier, stylua etc etc (these can be installed later, when you detect they're missing)
 
 
 ## Plugin manager
