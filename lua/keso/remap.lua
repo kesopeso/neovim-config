@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.g.user_emmet_leader_key = "<C-e>"
 
 vim.keymap.set("n", "<leader>rpcs", ":lua UseColorScheme('rose-pine')<CR>")
 
