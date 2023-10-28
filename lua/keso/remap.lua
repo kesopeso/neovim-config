@@ -24,11 +24,11 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 -- this keeps the original copied text, when pasting over visually selected text
 -- x mode: normal visual
-vim.keymap.set("x", "<leader>p", "\"_dP")
+vim.keymap.set("x", "<leader>p", '"_dP')
 
 -- delete to void register (in case you have something copied and don't want to overwrite it
-vim.keymap.set("n", "<leader>d", "\"_d")
-vim.keymap.set("v", "<leader>d", "\"_d")
+vim.keymap.set("n", "<leader>d", '"_d')
+vim.keymap.set("v", "<leader>d", '"_d')
 
 -- quick fix navigation
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
