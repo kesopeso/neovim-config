@@ -51,3 +51,8 @@ vim.keymap.set("n", "<C-k>", "<C->>k")
 -- window splitting
 vim.keymap.set("n", "<leader>s", ":split<CR>")
 vim.keymap.set("n", "<leader>vs", ":vsplit<CR>")
+
+-- buffer navigation
+vim.keymap.set("n", "<Tab>", ":bnext<CR>")
+vim.keymap.set("n", "<S-Tab>", ":bprev<CR>")
+vim.keymap.set("n", "<leader>cb", ":bd!<CR>")
