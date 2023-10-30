@@ -56,3 +56,10 @@ vim.keymap.set("n", "<leader>vs", ":vsplit<CR>")
 vim.keymap.set("n", "<Tab>", ":bnext<CR>")
 vim.keymap.set("n", "<S-Tab>", ":bprev<CR>")
 vim.keymap.set("n", "<leader>cb", ":bd!<CR>")
+
+-- autoclose quotes, brackets
+vim.keymap.set("i", "'", "''<left>")
+vim.keymap.set("i", '"', '""<left>')
+vim.keymap.set("i", "[", "[]<left>")
+vim.keymap.set("i", "(", "()<left>")
+vim.keymap.set("i", "{", "{}<left>")
