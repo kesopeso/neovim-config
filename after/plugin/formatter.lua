@@ -10,6 +10,9 @@ require("formatter").setup({
 			-- and so on for every other plugin
 			require("formatter.filetypes.lua").stylua,
 		},
+		yaml = {
+			require("formatter.filetypes.yaml").prettier,
+		},
 		markdown = {
 			require("formatter.filetypes.markdown").prettier,
 		},
