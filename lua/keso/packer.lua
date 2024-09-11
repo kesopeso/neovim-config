@@ -24,6 +24,8 @@ return require("packer").startup(function(use)
 		end,
 	})
 
+	use({ "folke/tokyonight.nvim" })
+
 	-- code formatter / "color maker"
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 	use("nvim-treesitter/playground")
