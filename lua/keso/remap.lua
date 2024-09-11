@@ -1,7 +1,8 @@
 vim.g.mapleader = " "
 vim.g.user_emmet_leader_key = "<C-e>"
 
-vim.keymap.set("n", "<leader>rpcs", ":lua UseColorScheme('rose-pine')<CR>")
+vim.keymap.set("n", "<leader>csrp", ":lua UseColorScheme('rose-pine')<CR>")
+vim.keymap.set("n", "<leader>cstn", ":lua UseColorScheme('tokyonight')<CR>")
 
 -- this is now defined in after/plugin/nvim-tree.lua,
 -- because i'm using nvim-tree as my file browser now
