@@ -17,3 +17,4 @@ fc-cache -fv
 echo "Installing plugin manager - Packer..."
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
+echo "Everything installed. Open neovim with this folder as root, open packer.lua file. Source it and run :PackerSync command. That's all folks."
